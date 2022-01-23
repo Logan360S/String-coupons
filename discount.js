@@ -45,14 +45,7 @@ var isCoupon = function (coupon) {
         
         } 
     }
-
-    console.log(stack)
     return (stack.isEmpty())
 }
-
-
-let coupon = "xAx"
-
-console.log(isCoupon(coupon))
 
 
