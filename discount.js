@@ -34,7 +34,7 @@ var isCoupon = function (coupon) {
             if (counter === 1) {
                 firstLet = stack.peek()
             } else if (counter === 3) {
-                if (firstLet = stack.peek()) {
+                if (firstLet === stack.peek()) {
                     stack = new Stack()
                 }
             }
@@ -47,5 +47,10 @@ var isCoupon = function (coupon) {
     }
     return (stack.isEmpty())
 }
+
+
+let coupon = "aBBatQw"
+
+console.log(isCoupon(coupon))
 
 
